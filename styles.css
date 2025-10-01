@@ -129,3 +129,15 @@ img {
   font-weight: 300;
   letter-spacing: 0.2px;
 }
+
+@media (width < 375px) {
+  .card {
+    width: 300px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+}
